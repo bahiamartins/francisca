@@ -1,0 +1,152 @@
+@charset "utf-8";
+body {
+	font: "Times New Roman", Times, serif ;
+	background: #faf4e1 url("../Imagens/bg.png") repeat-x 0% 0%;
+	margin: 0;
+	padding: 0;
+}
+
+/* ~~ This fixed width container surrounds all other blocks ~~ */
+.container {
+	width: 960px;
+	position:relative;
+	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout */
+}
+/* ~~ The header is not given a width. It will extend the full width of your layout. ~~ */
+header {
+	padding-top: 30px;
+	font-family: 'Droid Serif', Georgia, Times, serif;
+	font-size: 59px;
+	line-height: 65px;
+	color:#FFF;
+}
+.about {
+	color:#FFF;
+	font-size:16px;
+	width: 80%;
+	position: relative;
+	display:inline-block;
+	font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+	line-height: 25px;
+}
+.menu{
+	display: block;
+	width: 80%;
+    list-style-type:none;
+    text-align:center;
+	font-size: 14px;
+	font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+	margin-top: 30px;
+}
+.menu li{
+    display:inline;
+    margin-right:20px;
+}
+.menu li a{
+    text-decoration:none;
+    color:#ffffff;
+}
+.menu li a:hover {
+	text-decoration:underline;
+}
+.menu li a:active {
+	position:relative;
+	top:1px;
+}
+.content {
+	margin: 80px 80px -5px 80px;
+	display: block;
+}
+.content_cont {
+	float:left;
+	width: 600px;
+	height: 200px;
+	display:block;
+	line-height: 18px;
+}
+.left_pane {
+	float: left;
+	width: 250px;
+	padding-left: 30px;
+}
+.right_pane {
+	float: right;
+	width: 250px;
+}
+.txt {
+	text-align:center;
+	font-size: 14px;
+	font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+	color:#333333;
+}
+.txt2 {
+	text-align: left;
+	font-size: 14px;
+	font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+	color:#333333;
+}
+.txt3 {
+	text-align: left;
+	float:left;
+	font-size: 13px;
+	font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+	color:#c02058;
+	font-weight:normal;
+}
+.txt4 {
+	text-align: left;
+	font-size: 16px;
+	font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+	color:#c02058;
+}
+.txt5 {
+	text-align: left;
+	font-size: 14px;
+	font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+	color:#c02058;
+	text-decoration:none;
+}
+.txt6 {
+	text-align: left;
+	font-size: 13px;
+	font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+	color:#333333;
+	text-decoration:none;
+}
+.txt7 {
+	text-align: left;
+	font-size: 13px;
+	font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+	color:#c02058;
+	text-decoration:none;
+}
+.bold {
+	font-weight:bold;
+}
+/* ~~ The footer ~~ */
+footer {
+	position: relative;/* this gives IE6 hasLayout to properly clear */
+	clear: both; /* this clear property forces the .container to understand where the columns end and contain them */
+	bottom:0;
+	border-top: 1px #c02058 dotted;
+}
+/* ~~ Miscellaneous float/clear classes ~~ */
+.fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class can be placed on a <br /> or empty block element as the final element following the last floated block (within the .container) if the footer is removed or taken out of the .container */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+
+/*HTML 5 support - Sets new HTML 5 tags to display:block so browsers know how to render the tags properly. */
+header, section, footer, aside, nav, article, figure {
+	display: block;
+}
