@@ -1,7 +1,7 @@
 @charset "utf-8";
 body {
 	font: "Times New Roman", Times, serif ;
-	background: #faf4e1 url("../Imagens/bg.png") repeat-x 0% 0%;
+	background: #ebebeb url("../Imagens/bg.png") repeat-x 0% 0%;
 	margin: 0;
 	padding: 0;
 }
@@ -31,7 +31,6 @@ header {
 }
 .menu{
 	display: block;
-	width: 80%;
     list-style-type:none;
     text-align:center;
 	font-size: 14px;
@@ -128,7 +127,7 @@ footer {
 	position: relative;/* this gives IE6 hasLayout to properly clear */
 	clear: both; /* this clear property forces the .container to understand where the columns end and contain them */
 	bottom:0;
-	border-top: 1px #c02058 dotted;
+	border-top: 1px #399587 solid;
 }
 /* ~~ Miscellaneous float/clear classes ~~ */
 .fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
