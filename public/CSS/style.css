@@ -58,19 +58,16 @@ header {
 }
 .content_cont {
 	float:left;
-	width: 600px;
-	height: 200px;
+	width: 100%;
+	min-height: 200px;
+	height: auto;
 	display:block;
-	line-height: 18px;
 }
-.left_pane {
-	float: left;
-	width: 250px;
-	padding-left: 30px;
-}
-.right_pane {
-	float: right;
-	width: 250px;
+.content_cont .blocks {
+	width: 240px;
+	margin: 10px;
+	text-align:start;
+	display:inline-block;
 }
 .txt {
 	text-align:center;
